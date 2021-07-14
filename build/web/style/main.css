@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 30, 2021, 11:20:15 AM
+    Author     : sudhakar
+*/
+
+
+body{
+    background-color: whitesmoke;
+}
+
+.body_header{
+    background-color: wheat;
+    margin: auto;
+    width: 50%;
+    border: 5px solid blue;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 100px;
+  grid-column-gap: 70px;
+  align-items: center;
+  margin-left: 140px;
+  margin-top: 40px;
+  margin-right: 140px;
+  margin-bottom: 40px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 100px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.grid-cont {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 100px;
+  grid-column-gap: 70px;
+  align-items: center;
+  margin-left: 140px;
+  margin-top: 40px;
+  margin-right: 140px;
+  margin-bottom: 40px;
+}
+.grid-i {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 50px;
+  font-size: 15px;
+  text-align: center;
+}
+h1{
+    color: tomato;
+    font-family: "Times New Roman", Times, serif;
+}
+h2{
+    color: chartreuse;
+    font-family: "Times New Roman", Times, serif;
+}
+
+p{
+    color: blue;
+    font-family: "Times New Roman", Times, serif;
+    font-size:x-large;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* table*/
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+  
+ /* table end */

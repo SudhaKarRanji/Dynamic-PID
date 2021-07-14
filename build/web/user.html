@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>User page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/main.css"/>
+        <style>
+            input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-right: 2em;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 80%;
+  background-color: #3f4663;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-right: 15em;
+  margin-left: 15em;
+  margin-top: 3em;
+}
+        </style>
+    </head>
+    <body>
+        <div class="body_header">
+            <h1>User Registration</h1>
+            <a href="index.html">Main page</a>
+        </div>
+        
+        
+        
+        
+        
+        <div>
+            <form action="register.jsp" method="post">
+      <h4>Service Identifier</h4>
+      <input type="text" id="fname"  name="sid" placeholder="Service Identifier" autocomplete="off" required minlength="5" maxlength="25"/>
+
+    <h4>Content</h4>
+    <input type="text" id="lname"  name="content" placeholder="DNS name" autocomplete="off" required>
+    <h4>Domain</h4>
+    <select id="domain" name="Domain" required>
+        <option value="null">Select a value</option>
+      <option value="A">Domain A</option>
+      <option value="B">Domain B</option>
+      <option value="C">Domain C</option>
+      <option value="D">Domain D</option>
+      <option value="E">Domain E</option>
+      <option value="F">Domain F</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+            <div align="center">
+                <p>Already a user<a href="userpage.jsp">Click here</a></p></div>
+</div>
+        
+    </body>
+</html>
